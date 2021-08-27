@@ -577,3 +577,40 @@ Bounce
   }
 }
 
+.notification-bar {
+  position: absolute;
+  top: 2%;
+  left: 42%;
+  height: 2.7rem;
+  width: 20%;
+  /*background: rgba(113, 158, 206, 0.1);*/
+  text-align: center;
+  padding-top: 0.3rem;
+  padding-bottom: 0.2rem;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 16px;
+  outline: none;
+  border: 1px solid transparent;
+  /*border: 3px solid rgba(42, 117, 97, 1);*/
+  /*border-radius: 20px;*/
+  mix-blend-mode: overlay;
+}
+
+.notification-bar:focus {
+  outline: none;
+  border: 1px solid transparent;
+}
+.notification-bar:visited {
+  outline: none;
+  border: 1px solid transparent;
+}
+.notification-bar:active {
+  outline: none;
+  border: 1px solid transparent;
+}
+.notification-bar:hover {
+  outline: none;
+  border: 1px solid transparent;
+}

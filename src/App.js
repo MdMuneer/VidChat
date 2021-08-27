@@ -1,6 +1,8 @@
+
 import JoinForm from "./components/JoinForm";
 import "./styles.css";
 import Room from "./components/Room";
+import Notification from "./components/Notifications";
 import { useEffect } from "react";
 import {
   selectIsConnectedToRoom,
@@ -25,6 +27,7 @@ const App = () => {
     <div className="App" >
       {isConnected ? (
         <>
+          <Notification />
           <Room />
           <ButtonBar />
         </>
