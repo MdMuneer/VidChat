@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Chat from "./Chat";
 import { BiMicrophone } from "react-icons/bi";
 import { BiMicrophoneOff } from "react-icons/bi";
 import { BiVideo } from "react-icons/bi";
