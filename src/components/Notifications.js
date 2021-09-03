@@ -4,7 +4,6 @@ import {
   useHMSNotifications,
   HMSNotificationTypes,
 } from "@100mslive/hms-video-react";
-import { IoIosNotifications } from "react-icons/io";
 
 const Notification = () => {
   const notification = useHMSNotifications();
