@@ -8,6 +8,8 @@ Have Functionalities like -
 
 *Mute/Unmute (Audio/video)
 
+*Live Notifications
+
 *ScreenSharing (still in developement)
 
-*Live Notifications 
+ 
