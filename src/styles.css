@@ -15,14 +15,6 @@ body {
   color: white;
 }
 
-/*h1,
-h2,
-h3,
-h4,
-h5 {
-  font-weight: normal;
-}*/
-
 .showcase video {
   position: absolute;
   top: 0;
@@ -123,50 +115,52 @@ input::placeholder {
 
 .grid-container {
   display: grid;
-  grid-template-columns: 30% 70%;
-  grid-template-areas: " chatbox video-container";
+  grid-template-columns: 23% 76.4%;
+  grid-template-areas: " chatbox  video-container";
   grid-gap: 10px;
 }
 
+
 .peers-container {
   grid-area: video-container;
-  min-width: 320px;
-  display: grid;
-  grid-template-rows: repeat(2, minmax(min-content, 1fr));
-  place-items: end;
-  grid-gap: 5px;
-  margin-top: 3.3rem;
-  margin-right: 1.5rem;
-  /*margin-left:-65rem ;*/
-  /*flex-direction: column;*/
-  /*  max-width: 300px;
-*/
-}
+  min-width: 750px;
+  height: 100vh;
+  /*border-radius: 20px;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  margin-top: 0rem;
+  margin-right: 0rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-bottom: 1rem;
+
 
 .peer-video {
-  /*grid-area: peer-video;*/
-  height: 250px;
-  width: 300px;
-  /*margin-left:-20rem;*/
+  height: 400px ;
+  width: 650px;
   border-radius: 5%;
   object-fit: cover;
-  margin-bottom: 1px;
-  background-color: #546e7a;
+  background-color: grey;
 }
 
 .local.peer-video {
   transform: scaleX(-1);
+
 }
 
 .peer-name {
   font-size: 14px;
   text-align: center;
-  margin-top: -1.8rem;
+  margin-top: -2rem;
   mix-blend-mode: overlay;
 }
 
 .peer-container {
-  padding: 10px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-bottom: 5rem;
+
 }
 
 .control-bar {
@@ -177,13 +171,26 @@ input::placeholder {
   width: 100vw;
   height: 12vh;
   padding: 1rem;
-  justify-content: center;
+  justify-content: space-between;
   z-index: 10;
 }
 
 /*.control-bar > *:not(:first-child) {
   margin-left: 8px;
 }*/
+
+.center-buttons {
+  width: 18rem;
+  display: flex;
+  margin-right: 2.8rem;
+}
+.App-name {
+  text-align: center;
+  margin-top: 1.2rem;
+  padding-right: 1.2rem;
+  color: grey;
+  letter-spacing: 2px;
+}
 
 .btn-control {
   font-weight: 500;
@@ -239,7 +246,6 @@ svg {
 .btn-danger:hover {
   content: "Leave Room";
 }
-
 .btn-toggle {
   color: #719ece;
   width: 3rem;
@@ -277,8 +283,8 @@ svg {
   background: url(./chat.png) no-repeat;
   width: 13rem;
   height: 1.9rem;
-  /*  margin-left: 1.6rem;
-*/
+  margin-left: 4rem;
+  margin-top: 0.7rem;
   outline: none !important;
   border-color: transparent;
 }
@@ -322,8 +328,8 @@ Chat
 --------------------*/
 .chat {
   position: absolute;
-  top: 46%;
-  left: 15%;
+  top: -370%;
+  left: 12.5%;
   transform: translate(-50%, -50%);
   width: 300px;
   height: 80vh;
@@ -580,7 +586,7 @@ Bounce
 .notification-bar {
   position: absolute;
   top: 2%;
-  left: 42%;
+  left: 2.2%;
   height: 2.7rem;
   width: 20%;
   /*background: rgba(113, 158, 206, 0.1);*/
