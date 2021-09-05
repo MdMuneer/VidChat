@@ -30,7 +30,7 @@ const ButtonBar = ({ peer }) => {
   const isConnected = useHMSStore(selectIsConnectedToRoom);
   const amIScreenSharing = useHMSStore(selectIsLocalScreenShared);
   const presenter = useHMSStore(selectPeerScreenSharing);
-  const [toggleChat, setToggleChat] = useState(true);
+  const [toggleChat, setToggleChat] = useState(false);
 
   // const screenshareVideoTrack = useHMSStore(selectScreenShareByPeerID(peerId));
 
