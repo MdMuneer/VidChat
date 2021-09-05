@@ -32,7 +32,6 @@ const ButtonBar = ({ peer }) => {
   const presenter = useHMSStore(selectPeerScreenSharing);
   const [toggleChat, setToggleChat] = useState(false);
 
-  // const screenshareVideoTrack = useHMSStore(selectScreenShareByPeerID(peerId));
 
   const toggleAudio = () => {
     hmsActions.setLocalAudioEnabled(!audioEnabled);
