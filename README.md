@@ -10,5 +10,4 @@ Have Functionalities like -
 
 *Live Notifications
 
-BigCard-slideout
  
