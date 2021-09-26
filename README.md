@@ -10,6 +10,5 @@ Have Functionalities like -
 
 *Live Notifications
 
-*ScreenSharing (still in developement)
 
  
