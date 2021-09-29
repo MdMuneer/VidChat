@@ -1,14 +1,12 @@
-# VidChat App
 
-Video Chatting React Web App using 100ms.live SDKs with Intuitive User-Interface. 
 
-Have Functionalities like -
+![preview1](https://user-images.githubusercontent.com/31310562/135272814-c14d2669-52aa-485d-8f08-8f403db54c6f.jpg)
 
-*In-call Messaging
 
-*Mute/Unmute (Audio/video)
+### Video Chat Features like - ###
 
-*Live Notifications
+* **In-call Messaging**
 
- 
+* **Mute/Unmute (Audio/video)**
 
+* **Live Notifications**
