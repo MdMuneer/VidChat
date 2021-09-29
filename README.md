@@ -1,6 +1,5 @@
 **Video Chatting Web App using 100ms with intuitive user-interface.**
 
-
 #### Video Chat Features - ####
 
 * **In-call Messaging**
