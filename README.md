@@ -1,4 +1,4 @@
-**Video Chatting Web App using 100ms with intuitive user-interface.**
+**Video Chat Web App using 100ms with intuitive user-interface.**
 
 #### Video Chat Features - ####
 
